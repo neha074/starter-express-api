@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 const app = express();
 const port = 3000;
 
-app.get("/api/getinfo", async (req, res) => {
+app.get("", async (req, res) => {
   try {
     const htmlResponse = await axios.get("https://time.com");
 
