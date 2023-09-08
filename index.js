@@ -2,7 +2,7 @@ const http = require('http');
 const https= require('https');
 
 const server = http.createServer((req, res) => {
-  if (req.method === 'GET' && req.url === '/api/extract') {
+  if (req.method === 'GET' && req.url === '/api/lateststories') {
     // Replace the URL with the one you want to scrape
     const htmlUrl = 'https://time.com';
 
